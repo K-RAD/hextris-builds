@@ -1,5 +1,5 @@
-Hextris/www/js/*
-Hextris/www/style/*
-Hextris/www/vendor/*
+Hextris/www/js
+Hextris/www/style
+Hextris/www/vendor
 Hextris/www/favicon.ico
 Hextris/www/index.html
