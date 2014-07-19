@@ -3,3 +3,5 @@ Hextris/www/style
 Hextris/www/vendor
 Hextris/www/favicon.ico
 Hextris/www/index.html
+Hextris/www/platforms/*
+Hextris/www/plugins/*
