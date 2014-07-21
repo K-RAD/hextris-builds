@@ -17,7 +17,7 @@ for i in fs:
 with open('./www/js/initialization.js', 'r') as fin:
 	data = fin.read().splitlines(True)
 with open('./www/js/initialization.js', 'w') as fout:
-	data[0] = 'document.addEventListener(\'deviceready\',initialize, false);'
+#	data[0] = 'document.addEventListener(\'deviceready\',initialize, false);'
 	fout.writelines(data)
 
 print "Cleaning up..."
