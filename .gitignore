@@ -7,3 +7,4 @@ Hextris/plugins/*
 Hextris/platforms/*
 webkit/webkitbuilds
 webkit/node_modules
+*.psd
