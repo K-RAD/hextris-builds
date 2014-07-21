@@ -1,0 +1,21 @@
+{
+  "name": "Hextris",
+  "version": "0.0.0",
+  "description": "A fast paced puzzle game",
+  "main": "index.html",
+  "dependencies": {
+    "grunt-node-webkit-builder": "^0.1.21",
+    "grunt": "^0.4.5"
+  },
+  "window": {
+	"frame": true,
+	"toolbar": false
+
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

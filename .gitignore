@@ -5,3 +5,5 @@ Hextris/www/favicon.ico
 Hextris/www/index.html
 Hextris/plugins/*
 Hextris/platforms/*
+webkit/webkitbuilds
+webkit/node_modules

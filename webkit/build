@@ -1,0 +1,4 @@
+python2 getrepo.py
+rm gh-pages.zip
+cp package.json hextris-gh-pages/package.json
+grunt
