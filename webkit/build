@@ -1,4 +1,5 @@
 python2 getrepo.py
 rm gh-pages.zip
 cp package.json hextris-gh-pages/package.json
+cp icon-96-xhdpi.png hextris-gh-pages/
 grunt
