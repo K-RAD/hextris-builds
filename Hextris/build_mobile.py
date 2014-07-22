@@ -1,6 +1,6 @@
 #remember to add splash screens when compiling for ios
 import urllib, zipfile, os, shutil
-
+print "Downloading..."
 urllib.urlretrieve ("https://github.com/Hextris/hextris/archive/gh-pages.zip", "./gh-pages.zip")
 
 print "Extracting..."
