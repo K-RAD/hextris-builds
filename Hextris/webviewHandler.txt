@@ -1,0 +1,17 @@
+- (BOOL)webView:(UIWebView *)theWebView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
+{
+    NSURL *url = [request URL];
+    NSString *str = url.absoluteString;
+    NSRange range = [str rangeOfString:@"http://"];
+    NSRange range1 = [str rangeOfString:@"https://"];
+    NSRange ghrange = [str rangeOfString:@"github-btn"];
+    NSRange twrange = [str rangeOfString:@"platform.twitter.com/widgets/tweet_button.1404"];
+
+    if ((range.location != NSNotFound || range1.location != NSNotFound) && ghrange.location == NSNotFound && twrange.location == NSNotFound) {
+        [[UIApplication sharedApplication] openURL:url];
+        return NO;
+    } else {
+        return [ super webView:theWebView shouldStartLoadWithRequest:request navigationType:navigationType ];
+    }
+}
+
