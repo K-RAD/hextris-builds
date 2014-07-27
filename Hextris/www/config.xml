@@ -4,7 +4,7 @@
     <description>
         A fast paced puzzle game.
     </description>
-    <author email="hex@phonegap.com" href="http://phonegap.com">
+    <author email="hextrisgame@gmail.com" href="http://hextris.github.io">
         Logan Engstrom and Garret Finucane
     </author>
     <preference name="permissions" value="none" />
